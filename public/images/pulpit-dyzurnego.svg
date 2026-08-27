@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Pulpit dyżurnego ruchu z tablicą zapowiedzi i przełącznikami rozjazdów">
+  <defs>
+    <linearGradient id="desk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#141b24"/>
+      <stop offset="1" stop-color="#0c1117"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="#0d1320"/>
+  <rect x="90" y="120" width="1020" height="560" rx="10" fill="url(#desk)" stroke="#3a4a56" stroke-width="2"/>
+  <g font-family="monospace" fill="#8fa3ab">
+    <rect x="130" y="160" width="940" height="60" rx="4" fill="#1a2330"/>
+    <text x="150" y="197" font-size="22" fill="#e7c98a">PER. 1   RELACJA 204   ODJAZD 23:41</text>
+  </g>
+  <g>
+    <rect x="130" y="236" width="940" height="60" rx="4" fill="#1a2330"/>
+    <text x="150" y="273" font-size="22" font-family="monospace" fill="#8fe3d6">PER. 3   RELACJA 118   ODJAZD 23:58</text>
+  </g>
+  <g>
+    <rect x="130" y="312" width="940" height="60" rx="4" fill="#1a2330"/>
+    <text x="150" y="349" font-size="22" font-family="monospace" fill="#c9d3d8">TOR B   RELACJA 071   PRZEJAZD 00:12</text>
+  </g>
+  <g stroke="#3a4a56" stroke-width="2">
+    <line x1="130" y1="400" x2="1070" y2="400"/>
+  </g>
+  <g>
+    <!-- schemat rozjazdow -->
+    <path d="M150 600 H 420 L 520 540 H 760" stroke="#57c7b8" stroke-width="5" fill="none"/>
+    <path d="M420 600 L 520 660 H 900" stroke="#4b5c66" stroke-width="5" fill="none"/>
+    <path d="M760 540 H 1000" stroke="#e7a33e" stroke-width="5" fill="none"/>
+    <circle cx="420" cy="600" r="10" fill="#e7c98a"/>
+    <circle cx="520" cy="540" r="10" fill="#e7c98a"/>
+    <circle cx="760" cy="540" r="10" fill="#e7c98a"/>
+  </g>
+  <g>
+    <rect x="130" y="700" width="60" height="36" rx="6" fill="#57c7b8"/>
+    <rect x="210" y="700" width="60" height="36" rx="6" fill="#2a353d"/>
+    <rect x="290" y="700" width="60" height="36" rx="6" fill="#e7a33e"/>
+    <rect x="370" y="700" width="60" height="36" rx="6" fill="#2a353d"/>
+  </g>
+</svg>

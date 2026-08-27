@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Dwa pulpity połączone sygnałem radiowym, symbol wspólnej zmiany dwóch osób">
+  <rect width="1200" height="900" fill="#0c1219"/>
+  <rect x="60" y="300" width="420" height="300" rx="12" fill="#161f29" stroke="#3a4a56" stroke-width="2"/>
+  <rect x="720" y="300" width="420" height="300" rx="12" fill="#161f29" stroke="#3a4a56" stroke-width="2"/>
+  <g font-family="monospace" font-size="18" fill="#8fa3ab">
+    <text x="90" y="345">KONIEC PÓŁNOCNY</text>
+    <text x="750" y="345">KONIEC POŁUDNIOWY</text>
+  </g>
+  <g stroke="#57c7b8" stroke-width="4" fill="none">
+    <rect x="100" y="380" width="340" height="40" rx="4"/>
+    <rect x="100" y="440" width="220" height="40" rx="4"/>
+  </g>
+  <g stroke="#e7a33e" stroke-width="4" fill="none">
+    <rect x="760" y="380" width="340" height="40" rx="4"/>
+    <rect x="760" y="440" width="220" height="40" rx="4"/>
+  </g>
+  <g stroke="#4b5c66" stroke-width="3" stroke-dasharray="10 10" fill="none">
+    <path d="M480 450 C 560 380, 640 380, 720 450"/>
+  </g>
+  <circle cx="600" cy="390" r="34" fill="none" stroke="#8fe3d6" stroke-width="3"/>
+  <circle cx="600" cy="390" r="18" fill="none" stroke="#8fe3d6" stroke-width="3"/>
+  <circle cx="600" cy="390" r="5" fill="#8fe3d6"/>
+</svg>

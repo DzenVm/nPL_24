@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Schemat sieci torów i rozjazdów na stacji">
+  <rect width="1200" height="900" fill="#101722"/>
+  <g stroke="#3a4a56" stroke-width="2" opacity="0.4">
+    <path d="M0 150 H1200 M0 300 H1200 M0 450 H1200 M0 600 H1200 M0 750 H1200"/>
+  </g>
+  <g fill="none" stroke-width="6">
+    <path d="M40 780 C 300 780, 380 600, 520 600 S 760 420, 1160 420" stroke="#57c7b8"/>
+    <path d="M40 680 C 260 680, 360 560, 520 540 L 760 540 S 980 480, 1160 500" stroke="#e7a33e"/>
+    <path d="M40 830 C 340 830, 420 660, 600 660 S 900 560, 1160 560" stroke="#7a8a94"/>
+  </g>
+  <g fill="#e7c98a">
+    <circle cx="520" cy="600" r="12"/>
+    <circle cx="520" cy="540" r="12"/>
+    <circle cx="760" cy="540" r="12"/>
+    <circle cx="900" cy="560" r="12"/>
+  </g>
+  <g font-family="monospace" font-size="20" fill="#8fa3ab">
+    <text x="60" y="770">TOR 1</text>
+    <text x="60" y="670">TOR 2</text>
+    <text x="60" y="820">BOCZNICA</text>
+    <text x="1060" y="410">PERON A</text>
+  </g>
+</svg>

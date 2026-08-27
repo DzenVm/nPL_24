@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Gęsta mgła nad bocznicą towarową, widoczny jeden sygnał w oddali">
+  <defs>
+    <linearGradient id="fb" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#141b24"/>
+      <stop offset="1" stop-color="#2a333b"/>
+    </linearGradient>
+    <radialGradient id="sig" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#e7a33e" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#e7a33e" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#fb)"/>
+  <g opacity="0.5" fill="#3f4a52">
+    <ellipse cx="300" cy="760" rx="500" ry="60"/>
+    <ellipse cx="900" cy="700" rx="460" ry="70"/>
+  </g>
+  <circle cx="840" cy="560" r="70" fill="url(#sig)"/>
+  <circle cx="840" cy="560" r="9" fill="#f2b757"/>
+  <rect x="834" y="566" width="12" height="140" fill="#333d44"/>
+  <g opacity="0.85" fill="#20282f">
+    <ellipse cx="250" cy="840" rx="700" ry="90"/>
+  </g>
+</svg>

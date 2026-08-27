@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #0d1320;
+  --color-panel: #161f29;
+  --color-paper: #f4efe3;
+  --color-paper-dim: #e9e2d2;
+  --color-amber: #e7a33e;
+  --color-signal: #57c7b8;
+  --color-line-dark: rgb(244 239 227 / 0.16);
+  --color-line-light: rgb(13 19 32 / 0.14);
+  --font-display: var(--next-display), ui-sans-serif, system-ui, sans-serif;
+  --font-body: var(--next-body), ui-sans-serif, system-ui, sans-serif;
+  --font-tag: var(--next-tag), ui-monospace, monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+}
+
+@layer components {
+  .eyebrow {
+    font-family: var(--font-tag);
+    font-size: 0.68rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #6b7b82;
+  }
+  .eyebrow-light {
+    color: #b9d6cf;
+  }
+  .h-display {
+    font-family: var(--font-display);
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    line-height: 1.02;
+  }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.9rem;
+    background: var(--color-ink);
+    color: var(--color-paper);
+    padding: 0.85rem 1.3rem;
+    font-family: var(--font-tag);
+    font-size: 0.78rem;
+    letter-spacing: 0.02em;
+  }
+  .btn-pale {
+    background: var(--color-paper);
+    color: var(--color-ink);
+  }
+  .btn-line {
+    background: transparent;
+    color: inherit;
+    border: 1px solid var(--color-line-dark);
+  }
+  .panel {
+    background: var(--color-panel);
+    color: var(--color-paper);
+  }
+  .divider-dark {
+    border-color: var(--color-line-dark);
+  }
+  .divider-light {
+    border-color: var(--color-line-light);
+  }
+}
+
+@layer utilities {
+  .marquee-track {
+    animation: marquee 32s linear infinite;
+  }
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+details > summary {
+  list-style: none;
+  cursor: pointer;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+details[open] summary .plus {
+  transform: rotate(45deg);
+}

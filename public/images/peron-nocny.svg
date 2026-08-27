@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Pusty peron nocą, oświetlony pojedynczą latarnią">
+  <defs>
+    <linearGradient id="nb" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a0e16"/>
+      <stop offset="1" stop-color="#1a2530"/>
+    </linearGradient>
+    <radialGradient id="lamp" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f2d08a" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#f2d08a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#nb)"/>
+  <rect x="0" y="620" width="1200" height="60" fill="#26323c"/>
+  <rect x="0" y="680" width="1200" height="220" fill="#11161d"/>
+  <rect x="580" y="260" width="14" height="360" fill="#2a353d"/>
+  <circle cx="587" cy="250" r="110" fill="url(#lamp)"/>
+  <circle cx="587" cy="250" r="16" fill="#f2d08a"/>
+  <rect x="180" y="560" width="140" height="50" rx="6" fill="#1c2732" stroke="#3a4a56" stroke-width="2"/>
+  <line x1="0" y1="920" x2="1200" y2="920" stroke="#3a4a56" stroke-width="4"/>
+</svg>

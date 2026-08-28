@@ -285,14 +285,14 @@ export default function Home() {
           Do zmiany zostało kilka chwil.
         </h2>
         <p className="mt-5 max-w-[460px] text-[16px] leading-[1.6]">
-          Domena dla tej strony zostanie podana później — do tego czasu możesz
-          zapoznać się z zasadami i opisem rozgrywki.
+          Strona opisu gry działa pod adresem zabulic.pro — zajrzyj do zasad
+          i opisu rozgrywki, zanim usiądziesz do pulpitu.
         </p>
         <a className="btn mt-7" href="#start">Do początku strony</a>
       </section>
 
       <footer className="flex flex-col gap-4 bg-ink px-6 py-7 text-[10px] tracking-[0.08em] text-paper/75 md:flex-row md:items-center md:justify-between md:px-[5vw]">
-        <span className="font-tag">© {new Date().getFullYear()} · Informacje o grze</span>
+        <span className="font-tag">© {new Date().getFullYear()} zabulic.pro · Informacje o grze</span>
         <div className="flex flex-wrap gap-5 font-tag">
           <a href="/prywatnosc">Prywatność</a>
           <a href="/kontakt">Kontakt</a>

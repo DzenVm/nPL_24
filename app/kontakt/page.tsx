@@ -19,12 +19,12 @@ export default function Kontakt() {
       </p>
       <a
         className="btn mt-8"
-        href="mailto:kontakt@twoja-domena.pl"
+        href="mailto:kontakt@zabulic.pro"
       >
-        kontakt@twoja-domena.pl
+        kontakt@zabulic.pro
       </a>
       <p className="mt-4 text-[13px] text-[#537178]">
-        Adres zostanie zastąpiony adresem we wskazanej domenie przed publikacją strony.
+        Piszemy z adresu w domenie zabulic.pro — odpowiedź zwykle wraca w ciągu kilku dni roboczych.
       </p>
     </main>
   );

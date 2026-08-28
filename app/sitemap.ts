@@ -1,7 +1,7 @@
 import type { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = 'https://twoja-domena.pl';
+  const base = 'https://zabulic.pro';
   const teraz = new Date();
   return [
     { url: `${base}/`, lastModified: teraz, changeFrequency: 'weekly', priority: 1 },

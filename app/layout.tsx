@@ -20,7 +20,7 @@ const tagFont = IBM_Plex_Mono({
   variable: '--next-tag',
 });
 
-const siteUrl = 'https://twoja-domena.pl';
+const siteUrl = 'https://zabulic.pro';
 const siteTitle = 'Gra o nocnej zmianie dyżurnego ruchu';
 const siteDescription =
   'Przeglądarkowa gra logiczna o prowadzeniu nocnego ruchu na niewielkiej stacji: rozjazdy, perony, zmęczenie brygad i decyzje, które układają się w jedną zmianę.';
@@ -33,6 +33,8 @@ export const metadata: Metadata = {
   openGraph: {
     title: siteTitle,
     description: siteDescription,
+    url: siteUrl,
+    siteName: 'zabulic.pro',
     locale: 'pl_PL',
     type: 'website',
   },
